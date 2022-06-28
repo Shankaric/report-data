@@ -1,4 +1,265 @@
 body{
-    height:100vh;
-    background-image: linear-gradient(rgb(144, 0, 255) 20%, rgb(71, 6, 248));
+    background-image: linear-gradient(rgb(144, 0, 255) 30%, rgb(71, 6, 248));
+    overflow-x: hidden;
 }
+.wholecont{
+    display: flex;
+   
+    color: white;
+}
+.sidebar{
+    width: 250px;
+   font-weight:light;
+}
+.headlogocont{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+ .menulist li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 30px 0px 0px;
+    padding-left: 30px;
+ }
+li{
+    list-style-type: none;
+
+}
+.menulist{
+    text-align:left;
+    padding: 0;
+ font-size: small;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-rotate-227{
+    transform: rotate(227deg);
+}
+.userimg img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+.maincont{
+    width: 90%;
+    padding: 20px !important;
+}
+.menulist li:hover{
+    color: white;
+    background-color: #821ed9;
+    box-shadow:4px 2px 7px 2px #551da7;
+}
+.imagesanalysis{
+    display: flex;
+}
+.halfcont{
+    background-color: transparent;
+    height: 350px;
+      border:1px solid #541da7da;
+    box-shadow:2px 2px 2px 2px #551da7;
+    padding: 10px;
+}
+.quatcont{
+    background-color: transparent;
+    height: 350px;
+    border:1px solid #551da7;
+    box-shadow:2px 2px 2px 2px #551da7;
+
+}
+.lastrow{
+    margin-top: 5px !important;
+}
+.box{
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    }
+
+.row{
+    display: flex;
+    gap: 20px;
+    padding-right:30px !important;
+
+     flex-wrap:nowrap !important;
+}
+.toprow{
+    padding-right: 30px;
+}
+.cloud{
+    margin-top: 12px;
+    height: 205px;
+    width: 230px;
+}
+.cpu {
+    margin-top: 44px;
+    z-index: 1;
+    width: 220px;
+    margin-left: 18px;
+    position: absolute;
+}
+.icontext{
+    font-size: small;
+}
+.fa-microchip{
+    color:#be86cc;
+}
+.fa-user{
+    color:#98d3ffdb;
+}
+.textbig {
+    
+    font-family: inherit;
+    font-size: 25px;
+}
+.txtdetails{
+    display: flex;
+}
+.lastbox{
+    background-image: radial-gradient(#8fccf4c7,#86c3e4bc,#8fccf4c7);
+    width: 23% !important;
+}
+.quatcontfirst{
+    background-image: radial-gradient(#ae4ccbbe,#db9cd77f,#a83cc0be);
+}
+.boxsml{
+    margin-top:5px;
+    padding: 3px;
+    border:2px solid rgba(255, 255, 255, 0.185) 
+}
+.sidelist li{
+    margin-top:5px;
+}
+.cone{
+    height: 290px;
+    width: 250px;
+}
+.stotistics{
+    display: flex;
+}
+.info{
+    margin-top: -3px;
+    margin-left: 66px;
+    z-index: -1;
+}
+.bg-danger{
+    background-color: #e01010 !important;
+
+}
+.badge{
+    border-radius: 40% !important;
+    border: 2px solid #0000004f;
+    box-shadow: 4px 4px 16px -1px #563a3a;
+}
+.fa-circle{
+    font-size: 6px !important;
+    margin-top:10px !important;
+    position: absolute;
+    padding-top: 11px;    
+}
+.infolstline{
+    margin-top: -20px;
+}
+.info li{
+    padding: 42px 15px 2px 40px;
+    font-size: small;
+}
+.infotxt{
+    font-size: 20px;
+}
+.infocont{
+    z-index: -1;
+    position: absolute;
+}
+.chartarea{
+    position: absolute;
+    margin-top: -242px;
+    margin-left: 44px;
+    width: 438px;
+    height: 213px;
+}
+.roundchart{
+    height:247px;
+}
+@media only screen and (max-width: 990px) {
+    .row{
+        flex-wrap:wrap !important;
+}   
+.halfcont{
+    width: 100% !important;
+}
+.badge{
+    display: none;
+}
+.quatcont{
+    width: 100% !important;
+}
+    .sidebar {
+        width: 70px;
+    }
+    .lname{
+        display: none;
+    }
+    .menulist{
+        text-align:left;
+        padding: 0;
+    }
+    .userimg img{
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+    .userdetails{
+        display: NONE;
+    }
+    .menulist li:hover{
+
+    color: white;
+    background-color: #821ed9;
+    box-shadow:4px 2px 7px 2px #551da7;
+    }
+    .menulist li {
+        list-style-type: none;
+        padding: 15px 15px 2px 15px;
+        margin: 15px 12px 18px 5px;
+    }
+    .menulist{
+        margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .row{
+             flex-wrap:wrap !important;
+    }
+    .halfcont{
+        width: 100% !important;
+    }
+    .quatcont{
+        width: 100% !important;
+    }
+    .lastbox{
+        width: 100% !important;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+   .overall{
+    width: 147% !important;
+   }
+   .wholecont{
+    width: 147% !important;
+   }
+   .info li {
+    padding: 42px 15px 2px 20px;
+    font-size: small;
+}
+.infocont{
+    margin-left: 20px;
+    width: 140%;
+}
+  }
